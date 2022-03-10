@@ -1,0 +1,12 @@
+settings = {
+	orientation = {
+		default = "portrait",
+		supported = {"portrait"}
+	},
+	plugins = {
+		["plugin.amazon.iap"] = {
+			publisherId = "com.coronalabs",
+			supportedPlatforms = {["android-kindle"] = true}
+		}
+	}
+}
