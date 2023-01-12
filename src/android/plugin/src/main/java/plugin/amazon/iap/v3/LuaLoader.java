@@ -284,7 +284,7 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener, Purchasin
 							LuaState L = runtime.getLuaState();
 							Hashtable<Object, Object> event = new Hashtable<>();
 							event.put("name", "licensing");
-							event.put("provider", "amazaon");
+							event.put("provider", "amazon");
 							if (licenseResponse.getRequestStatus() == LicenseResponse.RequestStatus.LICENSED) {
 								event.put("isError", false);
 								event.put("isVerified", true);
