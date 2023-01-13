@@ -281,11 +281,12 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener, Purchasin
 							if (luaLicensingistener == CoronaLua.REFNIL) {
 								return;
 							}
-							LuaState L = runtime.getLuaState();
-							Hashtable<Object, Object> event = new Hashtable<>();
-							event.put("name", "licensing");
-							event.put("provider", "amazon");
+
 							if (licenseResponse.getRequestStatus() == LicenseResponse.RequestStatus.LICENSED) {
+								LuaState L = runtime.getLuaState();
+								Hashtable<Object, Object> event = new Hashtable<>();
+								event.put("name", "licensing");
+								event.put("provider", "amazon");
 								event.put("isError", false);
 								event.put("isVerified", true);
 								event.put("response", Utils.responseStatusToString(licenseResponse.getRequestStatus()));
@@ -296,6 +297,10 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener, Purchasin
 									ex.printStackTrace();
 								}
 							} else {
+								LuaState L = runtime.getLuaState();
+								Hashtable<Object, Object> event = new Hashtable<>();
+								event.put("name", "licensing");
+								event.put("provider", "amazon");
 								event.put("isError", true);
 								event.put("isVerified", false);
 								event.put("response", Utils.responseStatusToString(licenseResponse.getRequestStatus()));

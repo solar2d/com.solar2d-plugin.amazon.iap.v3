@@ -2,5 +2,5 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    implementation 'com.amazon.device:amazon-appstore-sdk:3.0.2'
+    implementation 'com.amazon.device:amazon-appstore-sdk:3.0.3'
 }

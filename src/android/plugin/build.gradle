@@ -15,7 +15,7 @@ repositories {
 }
 dependencies {
     implementation ':Corona@aar'
-    implementation 'com.amazon.device:amazon-appstore-sdk:3.0.2'
+    implementation 'com.amazon.device:amazon-appstore-sdk:3.0.3'
 }
 
 task extractPluginJar() {
