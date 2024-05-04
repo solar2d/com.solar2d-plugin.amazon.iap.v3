@@ -1,0 +1,1 @@
+{"buildSettings":{"orientation":{"default":"portrait","supported":["portrait"]},"plugins":{"plugin.amazon.iap":{"supportedPlatforms":{"android-kindle":true},"publisherId":"com.coronalabs"}},"targetAppStore":"google","dailyBuildYear":null,"dailyBuildRevision":null,"appName":"Corona App"},"packageName":"com.mycompany.app","targetedAppStore":"google"}

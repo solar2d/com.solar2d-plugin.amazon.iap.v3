@@ -1,0 +1,4 @@
+#Thu May 02 16:52:33 CDT 2024
+base.0=/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/dex/debugAndroidTest/mergeDexDebugAndroidTest/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

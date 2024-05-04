@@ -1,0 +1,270 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mycompany.app"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="15"
+9-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="34" />
+10-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+11
+12    <uses-feature
+12-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:10:5-54
+13        android:glEsVersion="0x00020000"
+13-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:10:19-51
+14        android:required="true" />
+14-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:9:9-32
+15    <uses-feature
+15-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:11:2-85
+16        android:name="android.hardware.telephony"
+16-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:11:16-57
+17        android:required="false" />
+17-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:11:58-82
+18    <uses-feature
+18-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:12:2-90
+19        android:name="android.hardware.screen.portrait"
+19-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:12:16-63
+20        android:required="true" />
+20-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:12:64-87
+21    <uses-feature
+21-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:13:2-92
+22        android:name="android.hardware.screen.landscape"
+22-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:13:16-64
+23        android:required="false" />
+23-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:13:65-89
+24
+25    <queries>
+25-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:56:5-61:15
+26        <package android:name="com.amazon.venezia" />
+26-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:57:9-54
+26-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:57:18-51
+27
+28        <intent>
+28-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:58:9-60:18
+29            <action android:name="*" />
+29-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:59:13-40
+29-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:59:21-37
+30        </intent>
+31        <intent>
+31-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:12:9-16:18
+32            <action android:name="android.intent.action.VIEW" />
+32-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:13:13-65
+32-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:13:21-62
+33
+34            <data android:scheme="https" />
+34-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:15:13-44
+34-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:15:19-41
+35        </intent> <!-- Needed for checking for Camera Intent in Android 11 -->
+36        <intent>
+36-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:19:9-21:18
+37            <action android:name="android.media.action.IMAGE_CAPTURE" />
+37-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:20:13-73
+37-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:20:21-70
+38        </intent>
+39        <intent>
+39-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:22:9-24:18
+40            <action android:name="android.media.action.VIDEO_CAPTURE" />
+40-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:23:13-73
+40-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:23:21-70
+41        </intent> <!-- Needed for checking for Image Picker Intent in Android 11 -->
+42        <intent>
+42-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:26:9-30:18
+43            <action android:name="android.intent.action.GET_CONTENT" />
+43-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:27:13-72
+43-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:27:21-69
+44
+45            <data android:mimeType="image/*" />
+45-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:15:13-44
+46        </intent>
+47    </queries>
+48
+49    <!-- Add android:name="CoronaApplication" to reactivate Application Delegate in Native Builds -->
+50    <application
+50-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:19:5-55:19
+51        android:name="androidx.multidex.MultiDexApplication"
+51-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:34:9-61
+52        android:banner="@drawable/banner"
+52-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:20:18-51
+53        android:debuggable="true"
+54        android:enableOnBackInvokedCallback="false"
+54-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:35:9-52
+55        android:hardwareAccelerated="true"
+55-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:36:9-43
+56        android:icon="@mipmap/ic_launcher"
+56-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:19:18-52
+57        android:label="@string/app_name"
+57-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:21:18-50
+58        android:networkSecurityConfig="@xml/network_security_config"
+58-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:24:18-78
+59        android:testOnly="true" >
+60        <meta-data
+60-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:28:9-77
+61            android:name="targetedAppStore"
+61-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:28:20-51
+62            android:value="google" />
+62-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:28:52-74
+63
+64        <!-- The main Corona activity that runs the Corona project. -->
+65        <activity
+65-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:32:9-48:20
+66            android:name="com.ansca.corona.CoronaActivity"
+66-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:32:19-65
+67            android:configChanges="keyboard|keyboardHidden|navigation|screenSize|orientation"
+67-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:37:19-100
+68            android:exported="true"
+68-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:39:19-42
+69            android:icon="@mipmap/ic_launcher"
+69-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:46:13-47
+70            android:label="@string/app_name"
+70-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:34:19-51
+71            android:launchMode="singleTask"
+71-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:38:19-50
+72            android:resizeableActivity="false"
+72-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:35:19-53
+73            android:screenOrientation="portrait"
+73-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:33:19-55
+74            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+74-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:40:19-77
+75            <meta-data
+75-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:43:13-94
+76                android:name="requestedDefaultOrientation"
+76-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:43:24-66
+77                android:value="portrait" />
+77-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:43:67-91
+78
+79            <intent-filter>
+79-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:44:13-47:29
+80                <action android:name="android.intent.action.MAIN" />
+80-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:45:17-69
+80-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:45:25-66
+81
+82                <category android:name="android.intent.category.LAUNCHER" />
+82-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:46:17-76
+82-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:46:27-74
+83            </intent-filter>
+84        </activity>
+85
+86        <receiver
+86-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:49:9-54:20
+87            android:name="com.amazon.device.drm.ResponseReceiver"
+87-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:49:19-74
+88            android:exported="true"
+88-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:49:75-98
+89            android:permission="com.amazon.drm.Permission.NOTIFY" >
+89-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:50:13-68
+90            <intent-filter>
+90-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:51:13-53:29
+91                <action android:name="com.amazon.drm.NOTIFY" />
+91-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:52:17-66
+91-->/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:52:25-63
+92            </intent-filter>
+93        </receiver>
+94
+95        <uses-library
+95-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:38:9-40:40
+96            android:name="org.apache.http.legacy"
+96-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:39:13-50
+97            android:required="false" />
+97-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:40:13-37
+98
+99        <activity
+99-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:53:9-57:74
+100            android:name="com.ansca.corona.CameraActivity"
+100-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:54:13-59
+101            android:configChanges="keyboardHidden|orientation"
+101-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:55:13-63
+102            android:screenOrientation="portrait"
+102-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:56:13-49
+103            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+103-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:57:13-71
+104        <activity
+104-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:58:9-61:74
+105            android:name="com.ansca.corona.VideoActivity"
+105-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:59:13-58
+106            android:configChanges="keyboardHidden|orientation"
+106-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:60:13-63
+107            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+107-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:61:13-71
+108        <activity
+108-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:62:9-65:74
+109            android:name="com.ansca.corona.purchasing.StoreActivity"
+109-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:63:13-69
+110            android:configChanges="keyboardHidden|screenSize|orientation"
+110-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:64:13-74
+111            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+111-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:65:13-71
+112        <activity
+112-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:66:9-72:74
+113            android:name="com.ansca.corona.notifications.OnNotificationReceiverActivity"
+113-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:67:13-89
+114            android:excludeFromRecents="true"
+114-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:68:13-46
+115            android:exported="true"
+115-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:69:13-36
+116            android:noHistory="true"
+116-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:70:13-37
+117            android:taskAffinity=""
+117-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:71:13-36
+118            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+118-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:72:13-71
+119
+120        <provider
+120-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:74:9-78:20
+121            android:name="com.ansca.corona.storage.FileContentProvider"
+121-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:75:13-72
+122            android:authorities="com.mycompany.app.files"
+122-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:76:13-57
+123            android:exported="true" >
+123-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:77:13-36
+124        </provider>
+125        <provider
+125-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:79:9-87:20
+126            android:name="com.ansca.corona.camera.FileProvider"
+126-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:80:13-64
+127            android:authorities="com.mycompany.app.photos"
+127-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:81:13-58
+128            android:exported="false"
+128-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:82:13-37
+129            android:grantUriPermissions="true" >
+129-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:83:13-47
+130            <meta-data
+130-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:84:13-86:54
+131                android:name="android.support.FILE_PROVIDER_PATHS"
+131-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:85:17-67
+132                android:resource="@xml/file_paths" />
+132-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:86:17-51
+133        </provider> <!-- Corona service used to perform background operations such as managing notifications. -->
+134        <service android:name="com.ansca.corona.CoronaService" />
+134-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:90:9-66
+134-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:90:18-63
+135        <!--
+136         Receiver which automatically starts this application after the Android device starts up.
+137         This is needed to show this application's active status bar notifications and reschedule pending
+138         notifications after the device boots up, because they will only be shown if the app is running.
+139         This receiver only works if the "android.permission.RECEIVE_BOOT_COMPLETED" permission has been set.
+140        -->
+141        <receiver
+141-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:98:9-104:20
+142            android:name="com.ansca.corona.SystemStartupBroadcastReceiver"
+142-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:99:13-75
+143            android:exported="false" >
+143-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:100:13-37
+144            <intent-filter>
+144-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:101:13-103:29
+145                <action android:name="android.intent.action.BOOT_COMPLETED" />
+145-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:102:17-79
+145-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:102:25-76
+146            </intent-filter>
+147        </receiver> <!-- Handles local/scheduled notification events. -->
+148        <receiver android:name="com.ansca.corona.notifications.AlarmManagerBroadcastReceiver" />
+148-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:107:9-97
+148-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:107:19-94
+149        <receiver android:name="com.ansca.corona.notifications.StatusBarBroadcastReceiver" />
+149-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:108:9-94
+149-->[:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:108:19-91
+150    </application>
+151
+152</manifest>

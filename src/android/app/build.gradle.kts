@@ -184,11 +184,11 @@ android {
     lintOptions {
         isCheckReleaseBuilds = false
     }
-    buildToolsVersion("29.0.3")
-    compileSdkVersion(29)
+    buildToolsVersion("34.0.0")
+    compileSdkVersion(34)
     defaultConfig {
         applicationId = coronaAppPackage
-        targetSdkVersion(29)
+        targetSdkVersion(34)
         minSdkVersion(extra["minSdkVersion"] as Int)
         versionCode = coronaVersionCode
         versionName = coronaVersionName
@@ -1126,4 +1126,5 @@ dependencies {
         implementation(project(":plugin"))
     }
     implementation("androidx.multidex:multidex:2.0.1")
+    implementation("com.amazon.device:amazon-appstore-sdk:3.0.4")
 }

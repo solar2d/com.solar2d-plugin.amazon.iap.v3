@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/values/values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "56",
+                        "endOffsets": "107"
+                    }
+                },
+                {
+                    "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "1",
+                        "startOffsets": "52",
+                        "endColumns": "44",
+                        "endOffsets": "95"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "112",
+                        "endColumns": "47",
+                        "endOffsets": "155"
+                    }
+                }
+            ]
+        }
+    ]
+}

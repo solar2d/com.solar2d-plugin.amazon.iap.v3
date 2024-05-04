@@ -1,0 +1,293 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:2:1-63:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/scottharrison/.gradle/caches/transforms-3/6a622226f6d93cebfd5f37dbe710ccf7/transformed/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [:plugin] /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/plugin/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-12:12
+MERGED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:2:1-111:12
+INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:2:1-63:12
+	package
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:3:11-38
+		INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:2:1-63:12
+		INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:2:70-116
+	android:versionCode
+		INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:2:1-63:12
+		INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:4:11-41
+uses-feature#0x00020000
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:10:5-54
+MERGED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:7:5-9:35
+MERGED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:7:5-9:35
+	android:glEsVersion
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:10:19-51
+	android:required
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:9:9-32
+uses-feature#android.hardware.telephony
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:11:2-85
+	android:required
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:11:58-82
+	android:name
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:11:16-57
+uses-feature#android.hardware.screen.portrait
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:12:2-90
+	android:required
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:12:64-87
+	android:name
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:12:16-63
+uses-feature#android.hardware.screen.landscape
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:13:2-92
+	android:required
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:13:65-89
+	android:name
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:13:16-64
+application
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:19:5-55:19
+MERGED from [:plugin] /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/plugin/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-10:19
+MERGED from [:plugin] /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/plugin/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-10:19
+MERGED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:33:5-109:19
+MERGED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:33:5-109:19
+	android:label
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:21:18-50
+	android:hardwareAccelerated
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:36:9-43
+	android:icon
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:19:18-52
+		REJECTED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:37:9-43
+	android:banner
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:20:18-51
+	android:enableOnBackInvokedCallback
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:35:9-52
+	android:networkSecurityConfig
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:24:18-78
+	tools:replace
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:25:18-46
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:34:9-61
+meta-data#targetedAppStore
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:28:9-77
+	android:value
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:28:52-74
+	android:name
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:28:20-51
+activity#com.ansca.corona.CoronaActivity
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:32:9-48:20
+MERGED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:42:9-52:20
+MERGED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:42:9-52:20
+	android:screenOrientation
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:33:19-55
+	android:label
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:34:19-51
+	android:launchMode
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:38:19-50
+	android:exported
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:39:19-42
+	android:resizeableActivity
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:35:19-53
+	android:configChanges
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:37:19-100
+	android:icon
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:46:13-47
+	android:theme
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:40:19-77
+	android:name
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:32:19-65
+meta-data#requestedDefaultOrientation
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:43:13-94
+	android:value
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:43:67-91
+	android:name
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:43:24-66
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:44:13-47:29
+action#android.intent.action.MAIN
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:45:17-69
+	android:name
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:45:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:46:17-76
+	android:name
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:46:27-74
+receiver#com.amazon.device.drm.ResponseReceiver
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:49:9-54:20
+	android:exported
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:49:75-98
+	android:permission
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:50:13-68
+	android:name
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:49:19-74
+intent-filter#action:name:com.amazon.drm.NOTIFY
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:51:13-53:29
+action#com.amazon.drm.NOTIFY
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:52:17-66
+	android:name
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:52:25-63
+queries
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:56:5-61:15
+MERGED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:11:5-31:15
+MERGED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:11:5-31:15
+package#com.amazon.venezia
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:57:9-54
+	android:name
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:57:18-51
+intent#action:name:*
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:58:9-60:18
+action#*
+ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:59:13-40
+	android:name
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml:59:21-37
+uses-sdk
+INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/scottharrison/.gradle/caches/transforms-3/6a622226f6d93cebfd5f37dbe710ccf7/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/scottharrison/.gradle/caches/transforms-3/6a622226f6d93cebfd5f37dbe710ccf7/transformed/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [:plugin] /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/plugin/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:plugin] /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/plugin/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:5:5-44
+MERGED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:5:5-44
+INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/src/main/AndroidManifest.xml
+intent#action:name:android.intent.action.VIEW+data:scheme:https
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:12:9-16:18
+action#android.intent.action.VIEW
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:13:13-65
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:13:21-62
+data
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:15:13-44
+	android:scheme
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:15:19-41
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:19:9-21:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:20:21-70
+intent#action:name:android.media.action.VIDEO_CAPTURE
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:22:9-24:18
+action#android.media.action.VIDEO_CAPTURE
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:23:13-73
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:23:21-70
+intent#action:name:android.intent.action.GET_CONTENT+data:mimeType:image/*
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:26:9-30:18
+action#android.intent.action.GET_CONTENT
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:27:21-69
+uses-library#org.apache.http.legacy
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:38:9-40:40
+	android:required
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:39:13-50
+activity#com.ansca.corona.CameraActivity
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:53:9-57:74
+	android:screenOrientation
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:56:13-49
+	android:configChanges
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:55:13-63
+	android:theme
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:57:13-71
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:54:13-59
+activity#com.ansca.corona.VideoActivity
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:58:9-61:74
+	android:configChanges
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:60:13-63
+	android:theme
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:61:13-71
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:59:13-58
+activity#com.ansca.corona.purchasing.StoreActivity
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:62:9-65:74
+	android:configChanges
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:64:13-74
+	android:theme
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:65:13-71
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:63:13-69
+activity#com.ansca.corona.notifications.OnNotificationReceiverActivity
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:66:9-72:74
+	android:excludeFromRecents
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:68:13-46
+	android:noHistory
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:70:13-37
+	android:exported
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:69:13-36
+	android:theme
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:72:13-71
+	android:taskAffinity
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:71:13-36
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:67:13-89
+provider#com.ansca.corona.storage.FileContentProvider
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:74:9-78:20
+	android:authorities
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:76:13-57
+	android:exported
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:77:13-36
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:75:13-72
+provider#com.ansca.corona.camera.FileProvider
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:79:9-87:20
+	android:grantUriPermissions
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:83:13-47
+	android:authorities
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:81:13-58
+	android:exported
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:82:13-37
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:80:13-64
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:84:13-86:54
+	android:resource
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:86:17-51
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:85:17-67
+service#com.ansca.corona.CoronaService
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:90:9-66
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:90:18-63
+receiver#com.ansca.corona.SystemStartupBroadcastReceiver
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:98:9-104:20
+	android:exported
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:100:13-37
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:99:13-75
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:101:13-103:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:102:17-79
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:102:25-76
+receiver#com.ansca.corona.notifications.AlarmManagerBroadcastReceiver
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:107:9-97
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:107:19-94
+receiver#com.ansca.corona.notifications.StatusBarBroadcastReceiver
+ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:108:9-94
+	android:name
+		ADDED from [:Corona:] /Users/scottharrison/.gradle/caches/transforms-3/95df73d228e292cac3dc8274cc3fb0e1/transformed/jetified-Corona/AndroidManifest.xml:108:19-91

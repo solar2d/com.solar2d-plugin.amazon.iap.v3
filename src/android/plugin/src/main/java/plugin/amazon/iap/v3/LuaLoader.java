@@ -1,5 +1,7 @@
 package plugin.amazon.iap.v3;
 
+import android.util.Log;
+
 import com.amazon.device.drm.LicensingListener;
 import com.amazon.device.drm.LicensingService;
 import com.amazon.device.drm.model.AppstoreSDKModes;
@@ -179,7 +181,6 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener, Purchasin
 		}else{
 			L.pushBoolean(false);
 		}
-
 		return 1;
 	}
 
@@ -275,7 +276,7 @@ public class LuaLoader implements JavaFunction, CoronaRuntimeListener, Purchasin
 		}
 		CoronaRuntimeTask task = new CoronaRuntimeTask() {
 			public void executeUsing(CoronaRuntime runtime) {
-				LicensingService.verifyLicense(CoronaEnvironment.getApplicationContext(), new LicensingListener() {
+				LicensingService.verifyLicense(CoronaEnvironment.getCoronaActivity(), new LicensingListener() {
 					@Override
 					public void onLicenseCommandResponse(final LicenseResponse licenseResponse) {
 							if (luaLicensingistener == CoronaLua.REFNIL) {

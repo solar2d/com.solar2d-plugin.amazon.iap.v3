@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/drawable__corona_splash_screen.png.flat",
+        "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/drawable/_corona_splash_screen.png"
+    },
+    {
+        "merged": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "/Users/scottharrison/Desktop/com.solar2d-plugin.amazon.iap.v3/src/android/app/build/generated/corona_icons/mipmap-xhdpi/ic_launcher_foreground.png"
+    }
+]
